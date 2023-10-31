@@ -60,7 +60,7 @@ io.on("connection",(socket)=>{
   });
 
 socket.on("join chat",(room)=>{
-  socket.jpim(room);
+  socket.join(room);
 }); 
 
 socket.on("new message",(newMessageStatus)=>{
